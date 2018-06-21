@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Exercice 4</title>
-  </head>
-  <body>
-    <script>
-      var lastName = prompt('Entrez votre nom');
-      var firstName = prompt('Entrez votre prénom');
-      var city = prompt('Entrez votre ville');
-      alert('Nom : ' + lastName + '\nPrénom : ' + firstName + '\nVille : ' + city);
-    </script>
-
-  </body>
+<html>
+    <head>
+        <title>Exercice_4</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+      <script src="fonction.js"></script>
+        <form>
+            <label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname" />
+            <label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname" />
+            <label for="city">Ville : </label><input type="text" name="city" id="city"/>
+            <button  name="submit" id="submit" onclick="identity()">Valider</button>
+        </form>
+    </body>
 </html>
